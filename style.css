@@ -179,58 +179,44 @@ div{
 
 /* projects */
 
-.projects{
-    background-color:#fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+
+.project-pic {
+    border-radius: 10px;
+    object-fit: cover;
+    width: auto;
+}
+
+.maintitle{
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+.main-title{
+    font-size: 2rem;
+    color: black;
     text-align: center;
 }
 
-.projects p{
-    margin-top: 100px;
-    margin-bottom: 75px;
+.project-title{
     color: black;
-    font-size: 40px;
 }
 
-.projects:after{
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.projects .project1,
-.projects .project2,
-.projects .project3{
-    height: 400px;
-    width: 30%;
-    float: left;
+.project-card {
     background-color: beige;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    
+    
 }
-
-.projects .project1{
-    margin-left: 2%;
-    margin-right: 1.5%;
-    background-image: url(./assets/project-1.png);
-    background-size: cover;
-}
-
-.projects .project2{
-    margin-left: 1%;
-    margin-right: 1%;
-    background-image: url(./assets/project-2.png);
-    background-size: cover;
-}
-
-.projects .project3{
-    margin-left: 1.5%;
-    margin-right: 2%;
-    background-image: url(./assets/project-3.png);
-    background-size: cover;
-}
-
-
-
 
 
 

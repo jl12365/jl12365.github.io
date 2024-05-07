@@ -12,7 +12,7 @@
         <div class="logo"> Jason Li</div>
         <div>
             <ul class=" nav-links">
-                <li><a href= "#home">Home</a></li>
+                <li><a href= "" target="_blank">Home</a></li>
                 <li><a href= "#projects">Projects</a></li>
                 <li><a href= "#resume" onclick="window.open('./assets/Jason Li Resume.pdf')">Resume</a></li>
                 <img src="./assets/github.png"
@@ -40,7 +40,7 @@
         </div>
     </nav>
 
-
+    
     <div id="profile">
         <div id="profile-pic">
             <img class="pic" src="./assets/jason li picture.jpg">
@@ -58,15 +58,28 @@
     </div>
 
 
-    <div class="projects">
-        <p>Projects</p>
-        <div class="project1"></div>
-        <div class="project2"></div>
-        <div class="project3"></div>
+    <section class="projects" id="projects">
+
+        <div class="maintitle">
+            <p class="main-title">Some of my Recent Projects</p>
+        </div>
+
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <a href="https://github.com/jl12365/weather-app" target="_blank" class="project-link">
+                    <img src="assets/weather-app.png"   class="project-pic">
+                </a>
+            </div>
+            
+            <div class="project-container project-card">
+                <a href="" target="_blank" class="project-link">
+                    <img src="assets/website-app.png">
+                </a>
+            </div>
+        </div>
+    </section>
 
 
-
-    </div>
 
     <script src="script.js"></script>
 </body>
