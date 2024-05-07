@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body class="body">
+    <nav id="desktop-nav">
+        <div class="logo"> Jason Li</div>
+        <div>
+            <ul class=" nav-links">
+                <li><a href= "#home">Home</a></li>
+                <li><a href= "#projects">Projects</a></li>
+                <li><a href= "#resume" onclick="window.open('./assets/Jason Li Resume.pdf')">Resume</a></li>
+                <img src="./assets/github.png"
+                class="icon" 
+                onclick="window.open(this.href='https://github.com/jl12365')"/>
+                <img src="/assets/linkedin.png"
+                class="icon"
+                onclick="window.open(this.href='https://linkedin.com/in/jasonli13/')"/>
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo"> Jason Li</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href= "#about" onclick="toggleMenu()" >Home</a></li>
+            <li><a href= "#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href= "#resume" onclick="window.open('./assets/Jason Li Resume.pdf')" onclick="toggleMenu()">Resume</a></li>
+        </div>
+        </div>
+    </nav>
+
+
+    <div id="profile">
+        <div id="profile-pic">
+            <img class="pic" src="./assets/jason li picture.jpg">
+        </div>
+     
+        <div id="section-text">
+            <p class="text-p1"> Hey, I'm Jason </p>
+            <div class="about">
+            <p> - I'm currently studying Information Systems at Stony Brook University</p>
+            <p> - Currently a software engineer intern @ BloomNet</p>
+            <p> - In my free time I like to hit the gym and play video games</p>
+            <p> - Feel free to reach me at my socials!</p>
+        </div>
+        </div>
+    </div>
+
+    <section id="projects">
+            <div class="project-title">
+            <p class="project-heading">Projects</p>
+            </div>
+
+
+                <div class="item">
+                    <div class="left">
+                        <img src="./assets/project-1.png">
+                    </div>
+                    <div class="right">
+                        <p class="project-title">Weather App: Input city into the search bar, and it displays the weather in that area</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="left">
+                        <img src="./assets/project-2.png">
+                    </div>
+                    <div class="right">
+                        <p class="project-title">My Portfolio, handmade using raw HTML/CSS and Javascript</p>
+                    </div>
+                </div>
+    
+    </section>
+
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
